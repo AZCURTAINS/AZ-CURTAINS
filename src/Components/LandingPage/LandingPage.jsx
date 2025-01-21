@@ -7,7 +7,7 @@ import OwlCarousel from '../Carousels/OwlCarousel'
 import OurProducts from '../Body/OurProducts'
 import Carousels from 'react-bootstrap/Carousel';
 import img1 from '../../assets/ins fb.png'
-import img2 from '../../assets/showroom-service.jpg'
+import img2 from '../../assets/h4.jpg'
 import img3 from '../../assets/member-ship-compressed.jpg'
 import facebook from '../../assets/facebook-logo.svg'
 import instagram from '../../assets/instagram-logo6.svg'
@@ -74,7 +74,7 @@ const LandingPage = () => {
                         <div className="carousel-content d-flex flex-column">
                             <h1 className='text'>MEMBERSHIP</h1>
                             <p className='w-50'>
-                                MK Curtain offers lifetime membership for individual & corporate. What are you waiting for? Let’s join our membership to get extra benefits.
+                                AZ Curtain offers lifetime membership for individual & corporate. What are you waiting for? Let’s join our membership to get extra benefits.
                             </p>
                         </div>
                         <div className='carousel-image' >
@@ -89,7 +89,7 @@ const LandingPage = () => {
                             </p>
                         </div>
                         <div className='carousel-image' >
-                            <img src={img2} height={380} />
+                            <img src={img2} height={320} />
                         </div>
                     </Carousels.Item>
                 </Carousels>
